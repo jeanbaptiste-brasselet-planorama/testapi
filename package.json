@@ -19,12 +19,14 @@
   "dependencies": {
     "async": "^0.9.0",
     "express": "3.5.1",
+    "glob": "^5.0.5",
     "lodash": "^2.4.1",
-    "noot": "^0.5.8",
-    "request": "^2.42.0",
+    "moment": "^2.10.2",
     "mongoose": "~3.8.16",
     "mongoose-types": "~1.0.3",
-    "newrelic": "^1.11.3"
+    "newrelic": "^1.11.3",
+    "noot": "^0.5.9",
+    "request": "^2.55.0"
   },
   "devDependencies": {
     "chai": "^1.9.1",
