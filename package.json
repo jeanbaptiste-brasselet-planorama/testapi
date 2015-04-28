@@ -1,0 +1,41 @@
+{
+  "name": "planorama.example.app",
+  "version": "1.0.4",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "config": {
+    "blanket": {
+      "pattern": [
+        "config/",
+        "middlewares/",
+        "routes/",
+        "tasks/",
+        "app.js"
+      ]
+    }
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "express": "3.5.1",
+    "lodash": "^2.4.1",
+    "noot": "^0.5.8",
+    "request": "^2.42.0",
+    "mongoose": "~3.8.16",
+    "mongoose-types": "~1.0.3",
+    "newrelic": "^1.11.3"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-githooks": "^0.3.1",
+    "grunt-jscs": "^0.6.2",
+    "grunt-mocha-cov": "^0.3.0",
+    "jshint-stylish": "^0.1.5",
+    "mocha": "~1.21.0",
+    "supertest": "^0.13.0"
+  },
+  "author": "CVDM Solutions"
+}
